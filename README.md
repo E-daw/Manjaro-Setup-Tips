@@ -13,6 +13,7 @@ Applications to install:
   -manjaro-pipewire
   -power-profiles-daemon
   -optimus-manager-qt
+  -laptop-mode
   
 Paths to rem:
   
@@ -22,4 +23,7 @@ Settings to change:
     -Enable cups in systemctl
     -enable avahi-daemon.service
   
-    
+
+Environmental Variables:
+  -VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/radeon_icd.i686.json:/usr/share/vulkan/icd.d/radeon_icd.x86_64.json steam
+    This forces the use of integrated graphics. Sometimes steam games run through proton will select the nvidia graphics by default because of DXVK.
