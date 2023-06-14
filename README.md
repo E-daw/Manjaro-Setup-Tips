@@ -22,6 +22,8 @@ Settings to change:
   Enable network printer discovery https://wiki.manjaro.org/index.php/Printing
     -Enable cups in systemctl
     -enable avahi-daemon.service
+  Fix SSH on VPN
+    sudo ip li set mtu 1200 dev wlan0
   
 
 Environmental Variables:
