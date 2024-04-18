@@ -14,6 +14,11 @@ Applications to install:
   -power-profiles-daemon
   -optimus-manager-qt
   -laptop-mode
+  -Steam
+  -Discord
+  -Base-devel
+  -acpi_call
+  -Modrinth-app
   
 Paths to rem:
   
